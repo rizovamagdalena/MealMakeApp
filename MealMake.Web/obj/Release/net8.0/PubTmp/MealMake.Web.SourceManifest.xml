@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Web\obj\Release\net8.0\PubTmp\Out\" />
-  <dbfullsql path="C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Web\obj\Release\net8.0\PubTmp\EFSQLScripts\MealMake.Repository.Data.ApplicationDbContext.sql" />
-</sitemanifest>
