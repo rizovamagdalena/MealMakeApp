@@ -1,0 +1,163 @@
+﻿@using MealMake.Domain.Domain_Models
+@model MealCollection
+
+@{
+    ViewData["Title"] = "Active Meal Collection";
+}<style>
+    .ingredient-preview {
+    max-height: 320px;
+    overflow-y: auto;
+    background-color: #fafafa;
+}
+
+.ingredient-item {
+    word-break: break-word;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    transition: 0.2s ease-in-out;
+}
+
+
+</style>
+
+<div class="container mt-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Active Meal Collection</h2>
+        <a asp-action="ArchivedCollections" asp-controller="MealCollections" class="btn btn-outline-secondary">
+            View Archived Collections
+        </a>
+    </div>
+
+    <form asp-action="SetActiveCollection" asp-controller="MealCollections" method="post" class="mb-4 d-flex gap-2 align-items-center">
+        <select name="collectionId" class="form-select w-auto">
+            @foreach (var collection in ViewBag.UserCollections as List<MealCollection>)
+            {
+                <option value="@collection.Id"
+                        selected="@(collection.Id == Model?.Id ? "selected" : null)">
+                    @collection.Name
+                </option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Set Active</button>
+    </form>
+
+    @if (Model == null)
+    {
+        <p>No active collection selected.</p>
+    }
+    else
+    {
+        <div class="row">
+
+            <div class="col-lg-6">
+                <h4>@Model.Name</h4>
+                <hr />
+                <h5>Meals</h5>
+                @if (!Model.Meals.Any())
+                {
+                    <p>No meals in this collection.</p>
+                }
+                else
+                {
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+                        @foreach (var meal in Model.Meals)
+                        {
+                            <div class="col">
+                                <div class="card h-100 shadow-sm">
+                                <img src="@meal.MealThumbnail" class="card-img-top" alt="@meal.MealName" />
+
+                                <div class="card-body d-flex flex-column">
+                                    <h6 class="card-title">@meal.MealName</h6>
+
+                                    <a asp-controller="Meals"
+                                       asp-action="Details"
+                                       asp-route-id="@meal.MealId"
+                                       class="btn btn-sm btn-outline-primary mt-auto">
+                                        See recipe
+                                    </a>
+                                </div>
+                            </div>
+
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+
+            <div class="col-lg-5">
+                <h5>Ingredients Summary</h5>
+
+                @if (ViewBag.IngredientSummary == null || !((List<MealMake.Domain.ViewModels.IngredientSummaryViewModel>)ViewBag.IngredientSummary).Any())
+                {
+                    <p>No ingredients available.</p>
+                }
+                else
+                {
+                    <div class="ingredient-preview border rounded p-2">
+                        <div class="row row-cols-1 row-cols-md-2 g-2">
+                            @foreach (var ing in ((List<MealMake.Domain.ViewModels.IngredientSummaryViewModel>)ViewBag.IngredientSummary).Take(12))
+                            {
+                                <div class="col">
+                                    <div class="ingredient-item">
+                                        <strong>@ing.name</strong>
+                                        <div class="text-muted small text-wrap">
+                                            @ing.totalAmount
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <button class="btn btn-link mt-2 p-0" data-bs-toggle="modal" data-bs-target="#ingredientModal">
+                        View full ingredient list →
+                    </button>
+                }
+            </div>
+
+
+        </div>
+
+        <hr />
+
+        <form asp-action="ArchiveActiveCollection" asp-controller="MealCollections" method="post">
+            <button type="submit" class="btn btn-danger"
+                    onclick="return confirm('Are you sure you want to archive this collection?');">
+                Archive Collection
+            </button>
+        </form>
+    }
+</div>
+@if (ViewBag.IngredientSummary != null &&
+    ((List<MealMake.Domain.ViewModels.IngredientSummaryViewModel>)ViewBag.IngredientSummary).Any())
+{
+    <div class="modal fade" id="ingredientModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Full Ingredient List</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-md-3 g-3">
+                        @foreach (var ing in (List<MealMake.Domain.ViewModels.IngredientSummaryViewModel>)ViewBag.IngredientSummary)
+                        {
+                            <div class="col">
+                                <strong>@ing.name</strong>
+                                <div class="text-muted small">
+                                    @ing.totalAmount
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}

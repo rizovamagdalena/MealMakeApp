@@ -1,0 +1,21 @@
+﻿@model MealMake.Domain.ViewModels.AddCategoryViewModel
+
+@{
+    ViewData["Title"] = "Add Category to Collection";
+}
+
+<h2>Add Category to @Model.CollectionName</h2>
+
+<form asp-action="AddCategory" method="post">
+    <input type="hidden" asp-for="CollectionId" />
+
+    <div class="form-group">
+        <label for="SelectedCategoryId">Select Category</label>
+        <select asp-for="SelectedCategoryId" asp-items="@(new SelectList(Model.Categories, "Id", "Name"))" class="form-control">
+            <option value="">-- Select Category --</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Add Category</button>
+    <a asp-action="Details" asp-route-id="@Model.CollectionId" class="btn btn-secondary mt-2">Cancel</a>
+</form>

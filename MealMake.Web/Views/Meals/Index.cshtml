@@ -1,0 +1,175 @@
+﻿@model IEnumerable<MealMake.Domain.ViewModels.MealViewModel>
+
+@{
+    ViewData["Title"] = "Meals";
+    Guid? collectionId = ViewBag.CollectionId as Guid?;
+}
+
+<div class="container my-5">
+
+    @if (collectionId != null)
+    {
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div class="alert alert-info mb-0 flex-grow-1">
+                Adding to collection: <strong>@ViewBag.CollectionName</strong>
+            </div>
+
+            <div class="d-flex gap-2">
+                <a asp-controller="MealCollections" asp-action="Details" asp-route-id="@collectionId"
+                   class="btn btn-outline-secondary btn-sm">
+                    Back to Collection
+                </a>
+                <a asp-controller="MealCollections" asp-action="ArchivedCollections"
+                   class="btn btn-success btn-sm">
+                    View Archived Collections
+                </a>
+            </div>
+        </div>
+    }
+
+    <h2 class="text-center mb-4">🍽️ Find Meals</h2>
+
+    <form asp-action="Search" method="get" class="mb-4 p-3 bg-light rounded shadow-sm">
+        <div class="row g-3">
+            @if (collectionId != null)
+            {
+                <input type="hidden" name="collectionId" value="@collectionId" />
+            }
+
+            <div class="col-md-3">
+                <input type="text" name="name" class="form-control" placeholder="🔎 Search by Name..." />
+            </div>
+
+            <div class="col-md-2">
+                <select name="firstLetter" class="form-select">
+                    <option value="">-- First Letter --</option>
+                    @foreach (var c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+                    {
+                        <option value="@c">@c</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <select name="category" class="form-select">
+                    <option value="">-- Category --</option>
+                    @foreach (var cat in ViewBag.Categories as List<string> ?? new List<string>())
+                    {
+                        <option value="@cat">@cat</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <select name="area" class="form-select">
+                    <option value="">-- Area --</option>
+                    @foreach (var a in ViewBag.Areas as List<string> ?? new List<string>())
+                    {
+                        <option value="@a">@a</option>
+                    }
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <input type="text" name="ingredient" class="form-control" placeholder="🥕 Ingredient..." />
+            </div>
+        </div>
+
+        <div class="text-center mt-3">
+            <button type="submit" class="btn btn-success px-4">Search Meals</button>
+        </div>
+    </form>
+
+    <hr class="my-4" />
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            @foreach (var meal in Model)
+            {
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0 rounded-3">
+                        <img src="@meal.Thumbnail" class="card-img-top rounded-top" alt="@meal.Name" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">@meal.Name</h5>
+                            <p class="card-text text-muted">@meal.Category • @meal.Area</p>
+
+                            <a asp-controller="Meals"
+                               asp-action="Details"
+                               asp-route-id="@meal.Id"
+                               asp-route-collectionId="@collectionId"
+                               class="btn btn-outline-primary btn-sm mb-2">
+                                View Details
+                            </a>
+
+                            @if (collectionId != null)
+                            {
+                                if (!meal.IsInCollection)
+                                {
+                                    <form class="add-to-collection-form"
+                                          data-collection-id="@collectionId"
+                                          data-meal-id="@meal.Id"
+                                          method="post">
+                                        <button type="button" class="btn btn-success btn-sm mt-2 w-100">
+                                            ➕ Add to Collection
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <form class="add-to-collection-form"
+                                          data-collection-id="@collectionId"
+                                          data-meal-id="@meal.Id"
+                                          data-action="remove"
+                                          method="post">
+                                        <button type="button" class="btn btn-danger btn-sm mt-2 w-100">
+                                            ❌ Remove from Collection
+                                        </button>
+                                    </form>
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning text-center">⚠️ No meals found. Try searching!</div>
+    }
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(document).on('click', '.add-to-collection-form button', function(){
+            var form = $(this).closest('form');
+            var btn = $(this);
+            var action = form.attr('data-action') || 'add';
+            var collectionId = form.data('collection-id');
+
+            if(action === 'add'){
+                var mealId = form.data('meal-id');
+                $.post('/MealCollections/AddMealToCollection', { collectionId: collectionId, mealId: mealId })
+                .done(function(response){
+                    btn.removeClass('btn-success').addClass('btn-danger').text('❌ Remove from Collection');
+                    form.attr('data-action','remove');
+                    if(response.collectionMealId){
+                        form.attr('data-collection-meal-id', response.collectionMealId);
+                    }
+                })
+                .fail(function(){ alert('Failed to add meal!'); });
+            } else if(action === 'remove'){
+                var mealId = form.data('meal-id');
+                $.post('/MealCollections/RemoveMealFromCollection', { collectionId: collectionId, mealId: mealId })
+                .done(function(){
+                    btn.removeClass('btn-danger').addClass('btn-success').text('➕ Add to Collection');
+                    form.attr('data-action','add');
+                })
+                .fail(function(){ alert('Failed to remove meal!'); });
+            }
+        });
+    });
+</script>
+

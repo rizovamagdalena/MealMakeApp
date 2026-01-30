@@ -1,0 +1,24 @@
+﻿@model MealMake.Domain.Domain_Models.CollectionCategory
+
+@{
+    ViewData["Title"] = "Delete Category";
+}
+
+<div class="container my-5">
+    <h2>Delete Category</h2>
+    <hr />
+
+    <div class="card shadow-sm p-3 mb-4">
+        <h4>Are you sure you want to delete this category?</h4>
+        <dl class="row mt-3">
+            <dt class="col-sm-3">Name</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">🗑️ Delete</button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">⬅️ Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,54 @@
+﻿@model List<MealMake.Domain.ViewModels.MealViewModel>
+
+@{
+    ViewData["Title"] = "My Favorite Meals";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>💙 My Favorite Meals</h2>
+        <a asp-controller="Meals" asp-action="Index" class="btn btn-outline-secondary">
+            🔎 Search Meals
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            ⚠️ You don't have any favorite meals yet.
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var meal in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card shadow-sm border-0 h-100">
+                        <img src="@meal.Thumbnail" class="card-img-top rounded-top" style="height:200px; object-fit:cover;" alt="@meal.Name" />
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">@meal.Name</h5>
+                            <p class="text-muted mb-2">@meal.Category • @meal.Area</p>
+
+                            <a asp-controller="Meals"
+                               asp-action="Details"
+                               asp-route-id="@meal.Id"
+                               class="btn btn-outline-primary btn-sm mb-2">
+                                View Details
+                            </a>
+
+                            <form asp-controller="Meals"
+                            asp-action="RemoveFavorite"
+                            method="post" class="d-inline-block">
+                                <input type="hidden" name="mealId" value="@meal.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    ❌ Remove
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

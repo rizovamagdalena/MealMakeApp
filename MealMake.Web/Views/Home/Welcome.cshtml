@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+}
+
+<style>
+    /* Background gradient */
+    body {
+        background: linear-gradient(135deg, #f8eaea, #ffffff);
+        min-height: 100vh;
+    }
+
+    /* Card styling */
+    .welcome-card {
+        background: white;
+        border: none;
+        border-radius: 20px;
+        padding: 3rem;
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+    }
+
+        .welcome-card:hover {
+            transform: translateY(-5px);
+        }
+
+    /* Buttons */
+    .btn-custom {
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+    }
+
+        .btn-custom:hover {
+            transform: scale(1.05);
+        }
+
+    /* Accent headline (dark wine red gradient) */
+    .welcome-title {
+        background: linear-gradient(90deg, #6a0d1a, #b22222); /* dark wine red to firebrick */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+    }
+
+    /* Custom button colors (wine red theme) */
+    .btn-primary {
+        background-color: #6a0d1a;
+        border-color: #6a0d1a;
+    }
+
+        .btn-primary:hover {
+            background-color: #8b1c2c;
+            border-color: #8b1c2c;
+        }
+
+    .btn-success {
+        background-color: #b22222;
+        border-color: #b22222;
+    }
+
+        .btn-success:hover {
+            background-color: #cc3333;
+            border-color: #cc3333;
+        }
+
+    /* Image */
+    .welcome-image {
+        border-radius: 15px;
+        box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+<div class="container text-center my-5">
+    <div class="welcome-card">
+        <h1 class="display-4 welcome-title">🍴 Welcome to MealMake</h1>
+        <p class="lead text-muted mb-4">
+            Plan your meals, explore delicious recipes, and make healthy choices every day.
+        </p>
+
+        <div class="d-flex justify-content-center gap-3">
+            <a asp-controller="Account" asp-action="Login" class="btn btn-primary btn-lg px-4 btn-custom">Login</a>
+            <a asp-controller="Account" asp-action="Register" class="btn btn-success btn-lg px-4 btn-custom">Register</a>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <img src="/images/meal-landing.png" alt="Meal Planning"
+             class="img-fluid welcome-image" style="max-height: 420px;" />
+    </div>
+</div>

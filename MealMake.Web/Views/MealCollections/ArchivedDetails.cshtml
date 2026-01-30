@@ -1,0 +1,52 @@
+﻿@model MealMake.Domain.Domain_Models.ArchivedCollection
+
+@{
+    ViewData["Title"] = "Archived Collection Details";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>📦 @Model.CollectionName</h2>
+        <a asp-action="ArchivedCollections" class="btn btn-secondary">
+            🔙 Back to Archived Collections
+        </a>
+    </div>
+
+    <hr />
+
+    <h4>Meals in this collection</h4>
+
+    @if (Model.Meals == null || !Model.Meals.Any())
+    {
+        <div class="alert alert-info">
+            No meals were saved in this collection.
+        </div>
+    }
+    else
+    {
+        <div class="row g-3 mt-2">
+            @foreach (var meal in Model.Meals)
+            {
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <img src="@meal.MealThumbnail"
+                             class="card-img-top"
+                             alt="@meal.MealName"
+                             style="height:200px; object-fit:cover;" />
+
+                        <div class="card-body text-center">
+                            <h6 class="card-title">@meal.MealName</h6>
+                            <a asp-controller="Meals"
+                               asp-action="Details"
+                               asp-route-id="@meal.MealId"
+                               class="btn btn-primary btn-sm mt-2">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+

@@ -1,0 +1,17 @@
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Repository.deps.json
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Repository.runtimeconfig.json
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Repository.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Repository.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Domain.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\bin\Release\net8.0\MealMake.Domain.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.csproj.AssemblyReference.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.AssemblyInfoInputs.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.AssemblyInfo.cs
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.csproj.CoreCompileInputs.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.82903135.Up2Date
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\refint\MealMake.Repository.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\MealMake.Repository.genruntimeconfig.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Repository\obj\Release\net8.0\ref\MealMake.Repository.dll

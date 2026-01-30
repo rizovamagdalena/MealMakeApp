@@ -1,0 +1,47 @@
+﻿@model MealMake.Domain.Domain_Models.MealCollection
+
+@{
+    ViewData["Title"] = "Delete Collection";
+}
+
+<div class="container my-5">
+    <h1 class="mb-4 text-danger">Delete Collection</h1>
+
+    <div class="alert alert-warning">
+        <h4 class="alert-heading">Are you sure?</h4>
+        <p>You're about to delete the collection: <strong>@Model.Name</strong>.</p>
+        <p>This action <strong>cannot be undone</strong>.</p>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Collection Info</h5>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">Name</dt>
+                <dd class="col-sm-10">@Model.Name</dd>
+
+                <dt class="col-sm-2">Number of Meals</dt>
+                <dd class="col-sm-10">@Model.Meals?.Count ?? 0</dd>
+
+                <dt class="col-sm-2">Categories</dt>
+                <dd class="col-sm-10">
+                    @if (Model.Categories != null && Model.Categories.Any())
+                    {
+                        @string.Join(", ", Model.Categories.Select(c => c.CollectionCategory?.Name))
+                    }
+                    else
+                    {
+                        <span>No categories</span>
+                    }
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger me-2">Delete Collection</button>
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </form>
+</div>

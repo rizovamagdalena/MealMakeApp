@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2026-01-30T14:28:25.9322230Z||;True|2026-01-29T21:18:07.6317155+01:00||;True|2026-01-29T00:03:31.5527624+01:00||;False|2026-01-28T23:47:40.6608117+01:00||;True|2026-01-28T23:19:52.9182804+01:00||;True|2026-01-26T20:20:39.6372732+01:00||;True|2026-01-26T20:11:26.1620476+01:00||;True|2026-01-26T17:40:56.8538806+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:mealmakewebdbserver.database.windows.net,1433%3b Initial Catalog=MealMake.Web_db%3b User ID=CloudSAe17f33dd%3b Password=Magda123.%3b  Encrypt=True%3b TrustServerCertificate=False%3b Connection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MealMake.Repository.Data.ApplicationDbContext">
+      <Value>Server=tcp:mealmakewebdbserver.database.windows.net,1433%3b Initial Catalog=MealMake.Web_db%3b User ID=CloudSAe17f33dd%3b Password=Magda123.%3b  Encrypt=True%3b TrustServerCertificate=False%3b Connection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

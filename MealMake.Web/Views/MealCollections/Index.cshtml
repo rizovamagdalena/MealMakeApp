@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MealMake.Domain.Domain_Models.MealCollection>
+
+@{
+    ViewData["Title"] = "My Meal Collections";
+    var selectedCategory = ViewBag.SelectedCategory as string; 
+    var categories = ViewBag.AllCategories as List<MealMake.Domain.Domain_Models.CollectionCategory> ?? new List<MealMake.Domain.Domain_Models.CollectionCategory>();
+}
+
+<h2>My Meal Collections</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Collection</a>
+</p>
+
+<form method="get" class="mb-3 d-flex gap-2 align-items-center">
+    <label for="categoryFilter" class="mb-0">Filter by Category:</label>
+    <select name="category" id="categoryFilter" class="form-select w-auto">
+        <option value="">All</option>
+        @foreach (var cat in categories)
+        {
+            <option value="@cat.Name" selected="@(cat.Name == selectedCategory ? "selected" : null)">
+                @cat.Name
+            </option>
+        }
+    </select>
+
+    <button type="submit" class="btn btn-success">Filter</button>
+</form>
+
+@if (!Model.Any())
+{
+    <p>You don’t have any meal collections yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number of Meals</th>
+                <th>Categories</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var collection in Model)
+            {
+                <tr>
+                    <td>@collection.Name</td>
+                    <td>@collection.Meals.Count</td>
+                    <td>
+                        @if (collection.Categories != null && collection.Categories.Any())
+                        {
+                            @string.Join(", ", collection.Categories.Select(c => c.CollectionCategory.Name))
+                        }
+                        else
+                        {
+                            <span>No categories</span>
+                        }
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@collection.Id" class="btn btn-sm btn-info">Details</a>
+                        <a asp-action="Delete" asp-route-id="@collection.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

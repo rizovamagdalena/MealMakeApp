@@ -1,0 +1,631 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|solutionrelative:mealmake.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\views\\meals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\views\\meals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\views\\mealcollections\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\views\\mealcollections\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\views\\meals\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\views\\meals\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\implementation\\archivedcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\implementation\\archivedcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\domain models\\archivedcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\domain models\\archivedcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\viewmodels\\ingredientsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\viewmodels\\ingredientsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\views\\mealcollections\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\views\\mealcollections\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\controllers\\mealcollectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\controllers\\mealcollectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\implementation\\mealcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\implementation\\mealcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\implementation\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\implementation\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\controllers\\mealscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\implementation\\collectioncategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\implementation\\collectioncategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\interface\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\interface\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\controllers\\collectioncategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\controllers\\collectioncategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2E395A6-9917-4B17-A882-F2F12DCAECE4}|MealMake.Web\\MealMake.Web.csproj|solutionrelative:mealmake.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\implementation\\activecollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\implementation\\activecollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\domain models\\mealcollectioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\domain models\\mealcollectioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\domain models\\mealcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\domain models\\mealcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\domain models\\collectioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\domain models\\collectioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\interface\\imealcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\interface\\imealcollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\interface\\icollectioncategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\interface\\icollectioncategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.service\\interface\\iactivecollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097D61C0-AD50-47B4-B7FA-BDD5009BA6E8}|MealMake.Service\\MealMake.Service.csproj|solutionrelative:mealmake.service\\interface\\iactivecollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\identity\\mealmakeapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\identity\\mealmakeapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.repository\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|solutionrelative:mealmake.repository\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.domain\\domain models\\collectionmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8626A85-D2F3-4EBA-9680-3D4867526222}|MealMake.Domain\\MealMake.Domain.csproj|solutionrelative:mealmake.domain\\domain models\\collectionmeal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|c:\\users\\rizov\\visualstudioprojects\\mealmakeapp\\mealmake.repository\\migrations\\20260128205732_scnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46886E33-6063-44E1-BDE2-AB822F18015C}|MealMake.Repository\\MealMake.Repository.csproj|solutionrelative:mealmake.repository\\migrations\\20260128205732_scnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAGcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:31:56.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAgwJgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:25:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:25:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAcwH8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T14:16:01.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Program.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Program.cs",
+              "RelativeToolTip": "MealMake.Web\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T14:59:44.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MealMake.Repository\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Data\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "MealMake.Repository\\Data\\ApplicationDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T14:59:16.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "MealMake.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\appsettings.json",
+              "RelativeToolTip": "MealMake.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T19:04:49.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Meals\\Details.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Views\\Meals\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Meals\\Details.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Views\\Meals\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:21:27.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\MealCollections\\Details.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Views\\MealCollections\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\MealCollections\\Details.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Views\\MealCollections\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:21:01.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Favorites.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Meals\\Favorites.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Views\\Meals\\Favorites.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\Meals\\Favorites.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Views\\Meals\\Favorites.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:20:00.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T14:15:58.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArchivedCollection.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\ArchivedCollection.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Domain Models\\ArchivedCollection.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\ArchivedCollection.cs",
+              "RelativeToolTip": "MealMake.Domain\\Domain Models\\ArchivedCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T22:33:55.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IngredientSummaryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\ViewModels\\IngredientSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\ViewModels\\IngredientSummaryViewModel.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\ViewModels\\IngredientSummaryViewModel.cs",
+              "RelativeToolTip": "MealMake.Domain\\ViewModels\\IngredientSummaryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T22:01:31.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MealCollectionsController.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\MealCollectionsController.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Controllers\\MealCollectionsController.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\MealCollectionsController.cs",
+              "RelativeToolTip": "MealMake.Web\\Controllers\\MealCollectionsController.cs",
+              "ViewState": "AgIAAOwAAAAAAAAAAAAiwAcBAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:56:59.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MealCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\MealCollectionService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Implementation\\MealCollectionService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\MealCollectionService.cs",
+              "RelativeToolTip": "MealMake.Service\\Implementation\\MealCollectionService.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAwPEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T21:06:22.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ArchivedCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\ArchivedCollectionService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Implementation\\ArchivedCollectionService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\ArchivedCollectionService.cs",
+              "RelativeToolTip": "MealMake.Service\\Implementation\\ArchivedCollectionService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:52:14.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\MealCollections\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "MealMake.Web\\Views\\MealCollections\\HomePage.cshtml",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Views\\MealCollections\\HomePage.cshtml",
+              "RelativeToolTip": "MealMake.Web\\Views\\MealCollections\\HomePage.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAADwv2oAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T21:04:35.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\OpenAIService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Implementation\\OpenAIService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\OpenAIService.cs",
+              "RelativeToolTip": "MealMake.Service\\Implementation\\OpenAIService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAADoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T21:12:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MealsController.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\MealsController.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Controllers\\MealsController.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\MealsController.cs",
+              "RelativeToolTip": "MealMake.Web\\Controllers\\MealsController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwDAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T21:03:51.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CollectionCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\CollectionCategoryService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Implementation\\CollectionCategoryService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\CollectionCategoryService.cs",
+              "RelativeToolTip": "MealMake.Service\\Implementation\\CollectionCategoryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:41:59.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOpenAIService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IOpenAIService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Interface\\IOpenAIService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IOpenAIService.cs",
+              "RelativeToolTip": "MealMake.Service\\Interface\\IOpenAIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T21:12:05.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MealMake.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:56:58.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20260128205732_scnd.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Migrations\\20260128205732_scnd.cs",
+              "RelativeDocumentMoniker": "MealMake.Repository\\Migrations\\20260128205732_scnd.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Migrations\\20260128205732_scnd.cs",
+              "RelativeToolTip": "MealMake.Repository\\Migrations\\20260128205732_scnd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:57:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CollectionCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\CollectionCategoriesController.cs",
+              "RelativeDocumentMoniker": "MealMake.Web\\Controllers\\CollectionCategoriesController.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Web\\Controllers\\CollectionCategoriesController.cs",
+              "RelativeToolTip": "MealMake.Web\\Controllers\\CollectionCategoriesController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:56:57.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ActiveCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\ActiveCollectionService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Implementation\\ActiveCollectionService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Implementation\\ActiveCollectionService.cs",
+              "RelativeToolTip": "MealMake.Service\\Implementation\\ActiveCollectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:52:13.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MealCollection.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\MealCollection.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Domain Models\\MealCollection.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\MealCollection.cs",
+              "RelativeToolTip": "MealMake.Domain\\Domain Models\\MealCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:13:07.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CollectionCategory.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\CollectionCategory.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Domain Models\\CollectionCategory.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\CollectionCategory.cs",
+              "RelativeToolTip": "MealMake.Domain\\Domain Models\\CollectionCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:12:57.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MealCollectionCategory.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\MealCollectionCategory.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Domain Models\\MealCollectionCategory.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\MealCollectionCategory.cs",
+              "RelativeToolTip": "MealMake.Domain\\Domain Models\\MealCollectionCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:13:15.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IMealCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IMealCollectionService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Interface\\IMealCollectionService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IMealCollectionService.cs",
+              "RelativeToolTip": "MealMake.Service\\Interface\\IMealCollectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:44:38.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IActiveCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IActiveCollectionService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Interface\\IActiveCollectionService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\IActiveCollectionService.cs",
+              "RelativeToolTip": "MealMake.Service\\Interface\\IActiveCollectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:42:23.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICollectionCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\ICollectionCategoryService.cs",
+              "RelativeDocumentMoniker": "MealMake.Service\\Interface\\ICollectionCategoryService.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Service\\Interface\\ICollectionCategoryService.cs",
+              "RelativeToolTip": "MealMake.Service\\Interface\\ICollectionCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:42:14.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MealMakeApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Identity\\MealMakeApplicationUser.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Identity\\MealMakeApplicationUser.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Identity\\MealMakeApplicationUser.cs",
+              "RelativeToolTip": "MealMake.Domain\\Identity\\MealMakeApplicationUser.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:38:30.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "MealMake.Repository\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Repository\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "MealMake.Repository\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T14:59:17.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CollectionMeal.cs",
+              "DocumentMoniker": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\CollectionMeal.cs",
+              "RelativeDocumentMoniker": "MealMake.Domain\\Domain Models\\CollectionMeal.cs",
+              "ToolTip": "C:\\Users\\rizov\\VisualStudioProjects\\MealMakeApp\\MealMake.Domain\\Domain Models\\CollectionMeal.cs",
+              "RelativeToolTip": "MealMake.Domain\\Domain Models\\CollectionMeal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T20:12:56.326Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 115,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

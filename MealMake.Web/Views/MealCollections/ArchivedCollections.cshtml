@@ -1,0 +1,44 @@
+﻿@model IEnumerable<MealMake.Domain.Domain_Models.ArchivedCollection>
+
+@{
+    ViewData["Title"] = "Archived Collections";
+}
+
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>📦 Archived Meal Collections</h2>
+        <a asp-action="Index" asp-controller="MealCollections" class="btn btn-secondary">
+            🏠 Back to Home
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info text-center">
+            No archived collections yet.
+        </div>
+    }
+    else
+    {
+        <div class="row g-3">
+            @foreach (var collection in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h5 class="card-title">@collection.CollectionName</h5>
+
+                            <div class="mt-3 text-end">
+                                <a asp-action="ArchivedDetails"
+                                   asp-route-id="@collection.Id"
+                                   class="btn btn-primary btn-sm">
+                                    View Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

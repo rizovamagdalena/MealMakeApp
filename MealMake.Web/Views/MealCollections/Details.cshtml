@@ -1,0 +1,82 @@
+﻿@model MealMake.Domain.Domain_Models.MealCollection
+
+@{
+    ViewData["Title"] = "Collection Details";
+}
+
+<h1 class="mb-4">@Model.Name</h1>
+
+<div class="mb-4">
+    <h4>Collection Info</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Name</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Categories</dt>
+        <dd class="col-sm-10">
+            @if (Model.Categories != null && Model.Categories.Any())
+            {
+                foreach (var c in Model.Categories)
+                {
+                    <span class="badge bg-info text-dark me-2">@c.CollectionCategory?.Name</span>
+                    <form asp-action="RemoveCategory" method="post" class="d-inline">
+                        <input type="hidden" name="collectionCategoryId" value="@c.Id" />
+                        <input type="hidden" name="collectionId" value="@Model.Id" />
+                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                    </form>
+                    <br />
+                }
+            }
+            else
+            {
+                <p>No categories added yet.</p>
+            }
+
+            <a asp-action="AddCategory" asp-route-collectionId="@Model.Id" class="btn btn-primary mt-2">➕ Add Category</a>
+        </dd>
+    </dl>
+</div>
+
+<hr />
+
+<h4>Meals in Collection</h4>
+
+@if (Model.Meals != null && Model.Meals.Any())
+{
+    <div class="row g-3">
+        @foreach (var meal in Model.Meals)
+        {
+            <div class="col-md-3">
+                <div class="card h-100 shadow-sm">
+                    <a asp-controller="Meals" asp-action="Details" asp-route-id="@meal.MealId">
+                        <img src="@meal.MealThumbnail" class="card-img-top" style="height:200px; object-fit:cover;" alt="@meal.MealName" />
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">
+                            <a asp-controller="Meals" asp-action="Details" asp-route-id="@meal.MealId" class="text-decoration-none">
+                                @meal.MealName
+                            </a>
+                        </h5>
+                        <form asp-action="RemoveMealFromCollection" method="post">
+                            <input type="hidden" name="mealId" value="@meal.MealId" />
+                            <input type="hidden" name="collectionId" value="@Model.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No meals in this collection yet.</p>
+}
+
+<div class="mt-4">
+    <a asp-action="AddFromFavorites" asp-route-collectionId="@Model.Id" class="btn btn-primary me-2">➕ Add from Favorites</a>
+    <a asp-action="Search" asp-controller="Meals" asp-route-collectionId="@Model.Id" class="btn btn-success me-2">🔍 Search Meals</a>
+    <a href="#top" class="btn btn-secondary">⬆ Back to Top</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

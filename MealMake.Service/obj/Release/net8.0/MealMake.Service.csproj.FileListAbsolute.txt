@@ -1,0 +1,17 @@
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Service.deps.json
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Service.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Service.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Domain.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Repository.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Domain.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\bin\Release\net8.0\MealMake.Repository.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.csproj.AssemblyReference.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.AssemblyInfoInputs.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.AssemblyInfo.cs
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.csproj.CoreCompileInputs.cache
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.0854F568.Up2Date
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\refint\MealMake.Service.dll
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\MealMake.Service.pdb
+C:\Users\rizov\VisualStudioProjects\MealMakeApp\MealMake.Service\obj\Release\net8.0\ref\MealMake.Service.dll
